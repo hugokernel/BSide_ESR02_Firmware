@@ -5,7 +5,7 @@ This repository has been created to maintain the firmware configuration of the B
 **This is not an official repository**: I created this repository to make life easier for people (and myself) wishing to update the firmware
 of their device by centralizing the information for this particular model in this repository.
 
-The source of this repository is: https://github.com/madires/Transistortester-Warehouse
+The source of this repository is [Transistortester-Warehouse](https://github.com/madires/Transistortester-Warehouse)
 
 ![BSide ESR02 picture](bside_esr02.png)
 
@@ -15,7 +15,7 @@ The source of this repository is: https://github.com/madires/Transistortester-Wa
 
 ### From the downloaded firmware
 
-You can download directly the firmware files from the releases from the Github project page.
+You can download directly the firmware files from the [releases](https://github.com/hugokernel/BSide_ESR02_Firmware/releases) from the Github project page.
 
 ### By compiling yourself the sources
 
@@ -38,3 +38,8 @@ Or use directly the following command:
 
 Note: By default, the `make upload` command try to use the `avrispmkII` programmer, if you want to use another one,
 you have to edit the `Makefile` and change the ISP Programmer.
+
+## TODO
+
+- Explain how to find the ISP header
+- Update to the latest version...
