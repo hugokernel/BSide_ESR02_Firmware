@@ -2,6 +2,11 @@
 
 This repository has been created to maintain the firmware configuration of the BSide ESR02 as the ComponentTester project versions change.
 
+**This is not an official repository**: I created this repository to make life easier for people (and myself) wishing to update the firmware
+of their device by centralizing the information for this particular model in this repository.
+
+The source of this repository is: https://github.com/madires/Transistortester-Warehouse
+
 ![BSide ESR02 picture](bside_esr02.png)
 
 ## Instructions
