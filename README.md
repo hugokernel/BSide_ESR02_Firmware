@@ -2,6 +2,8 @@
 
 This repository has been created to maintain the firmware configuration of the BSide ESR02 as the ComponentTester project versions change.
 
+![BSide ESR02 picture](bside_esr02.png)
+
 ## Instructions
 
 ### 1. Get the binaries
