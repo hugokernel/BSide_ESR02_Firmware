@@ -80,7 +80,7 @@
  *    reference
  */
 
-//#define HW_REF25
+#define HW_REF25
 
 
 /*
@@ -1206,7 +1206,7 @@
  *  - uncomment to enable
  */
 
-//#define BAT_EXT_UNMONITORED
+#define BAT_EXT_UNMONITORED
 
 
 /*
@@ -1216,8 +1216,8 @@
  *  - standard values are: R1=10k, R2=3.3k
  */
 
-#define BAT_R1           10000
-#define BAT_R2           3300
+#define BAT_R1           47000
+#define BAT_R2           47000
 
 
 /*
@@ -1228,7 +1228,7 @@
  *  - Schottky diode about 200mV / PNP BJT about 100mV.
  */  
 
-#define BAT_OFFSET       290
+#define BAT_OFFSET       420
 
 
 /*

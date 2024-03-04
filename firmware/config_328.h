@@ -641,15 +641,15 @@
 #define LCD_DOTS_X       128            /* number of horizontal dots */
 #define LCD_DOTS_Y       64             /* number of vertical dots */
 #define LCD_OFFSET_X                    /* enable x offset of 4 dots */
-//#define LCD_FLIP_X                      /* enable horizontal flip */
+#define LCD_FLIP_X                      /* enable horizontal flip */
 #define LCD_FLIP_Y                      /* enable vertical flip */
 #define LCD_START_Y      0              /* start line (0-63) */
-#define LCD_CONTRAST     22             /* default contrast (0-63) */
+#define LCD_CONTRAST     15             /* default contrast (0-63) */
 //#define LCD_LONG_RESET                   /* long reset for NT7538 */
 /* font and symbols: vertically aligned & flipped, bank-wise grouping */
 //#define FONT_6X8_VF                      /* 6x8 font */
-#define FONT_8X8_VF                     /* 8x8 font */
-//#define FONT_8X16_VFP                   /* 8x16 font */
+//#define FONT_8X8_VF                     /* 8x8 font */
+#define FONT_8X16_VFP                   /* 8x16 font */
 //#define FONT_6X8_ISO8859_2_VF           /* 6x8 Central European font */
 //#define FONT_8X8_ISO8859_2_VF           /* 8x8 Central European font */
 //#define FONT_8X12T_ISO8859_2_VFP        /* thin 8x12 Central European font */
