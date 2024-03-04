@@ -32,5 +32,9 @@ Then, go to the `firmware` directory and enter the command: `make`.
 
 Make sure you have the package `avrdude`, then you can use the command `make upload`.
 
+Or use directly the following command:
+
+`avrdude -c usbasp -p atmega328p -F -U lfuse:w:0xCE:m -U hfuse:w:0xDF:m -U efuse:w:0xFF:m -U flash:w:ComponentTester.hex:i -U eeprom:w:ComponentTester.eep:a`
+
 Note: By default, the `make upload` command try to use the avrispmkII programmer, if you want to use another one,
 you have to edit the `Makefile` and change the ISP Programmer.
